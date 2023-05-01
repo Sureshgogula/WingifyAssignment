@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Password Test Box is Present]]>
+    </line>
+    <line>
+      <![CDATA[Username Test Box is Present]]>
+    </line>
+    <line>
+      <![CDATA[Login Button is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Method Closed]]>
+    </line>
+    <line>
+      <![CDATA[Username and Password are required validation message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Method Closed]]>
+    </line>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Method Closed]]>
+    </line>
+    <line>
+      <![CDATA[Password must be present Message is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Method Closed]]>
+    </line>
+    <line>
+      <![CDATA[username must be present Message is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Method Closed]]>
+    </line>
+    <line>
+      <![CDATA[Method Closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-04-30T11:10:31 IST" name="wingify" finished-at="2023-04-30T11:10:44 IST" duration-ms="12411">
+    <groups>
+    </groups>
+    <test started-at="2023-04-30T11:10:31 IST" name="Assignment" finished-at="2023-04-30T11:10:44 IST" duration-ms="12411">
+      <class name="Scripts.TestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:31 IST" name="setup" finished-at="2023-04-30T11:10:34 IST" duration-ms="2685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_1()[pri:0, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:34 IST" name="TC_1" description="TC001-This test verifies LoginPage Title,username and Password fields present,login Button is enabled" finished-at="2023-04-30T11:10:34 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Password Test Box is Present]]>
+            </line>
+            <line>
+              <![CDATA[Username Test Box is Present]]>
+            </line>
+            <line>
+              <![CDATA[Login Button is enabled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_1 -->
+        <test-method is-config="true" signature="closedTest()[pri:0, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:34 IST" name="closedTest" finished-at="2023-04-30T11:10:34 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closedTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:34 IST" name="setup" finished-at="2023-04-30T11:10:36 IST" duration-ms="1755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_2()[pri:1, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:36 IST" name="TC_2" description="TC002-This test verifies validation message displayed when user login with blank user name and password" finished-at="2023-04-30T11:10:36 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Username and Password are required validation message is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_2 -->
+        <test-method is-config="true" signature="closedTest()[pri:0, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:36 IST" name="closedTest" finished-at="2023-04-30T11:10:36 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closedTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:36 IST" name="setup" finished-at="2023-04-30T11:10:38 IST" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_3()[pri:2, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:38 IST" name="TC_3" description="TC003-This test verifies that user can login with valid credentials" finished-at="2023-04-30T11:10:38 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_3 -->
+        <test-method is-config="true" signature="closedTest()[pri:0, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:38 IST" name="closedTest" finished-at="2023-04-30T11:10:38 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closedTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:38 IST" name="setup" finished-at="2023-04-30T11:10:40 IST" duration-ms="1497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_4()[pri:3, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:40 IST" name="TC_4" description="TC004-This test verifies validation message displayed when user login with valid username and blank password" finished-at="2023-04-30T11:10:40 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Password must be present Message is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_4 -->
+        <test-method is-config="true" signature="closedTest()[pri:0, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:40 IST" name="closedTest" finished-at="2023-04-30T11:10:40 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closedTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:40 IST" name="setup" finished-at="2023-04-30T11:10:41 IST" duration-ms="1552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_5()[pri:4, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:41 IST" name="TC_5" description="TC005-This test verifies validation message displayed when user login with valid password and blank username" finished-at="2023-04-30T11:10:42 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[username must be present Message is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_5 -->
+        <test-method is-config="true" signature="closedTest()[pri:0, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:42 IST" name="closedTest" finished-at="2023-04-30T11:10:42 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closedTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:42 IST" name="setup" finished-at="2023-04-30T11:10:43 IST" duration-ms="1403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_6()[pri:5, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:43 IST" name="TC_6" description="click the AMOUNT header in the transaction table and check the values are sorted" finished-at="2023-04-30T11:10:44 IST" depends-on-methods="Scripts.TestCase.TC_2" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_6 -->
+        <test-method is-config="true" signature="closedTest()[pri:0, instance:Scripts.TestCase@11a9e7c8]" started-at="2023-04-30T11:10:44 IST" name="closedTest" finished-at="2023-04-30T11:10:44 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closedTest -->
+      </class> <!-- Scripts.TestCase -->
+    </test> <!-- Assignment -->
+  </suite> <!-- wingify -->
+</testng-results>

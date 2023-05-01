@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>TestNG:  Assignment</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Assignment</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Apr 30 11:10:31 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>12 seconds (12411 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Scripts.TestCase.TC_3()'><b>TC_3</b><br>Test class: Scripts.TestCase<br>Test method: TC003-This test verifies that user can login with valid credentials<br/>
+<a href="#Output-628933116" onClick='toggleBox("Output-628933116", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-628933116" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-628933116">
+Login Successful<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.TestCase@11a9e7c8</td></tr>
+<tr>
+<td title='Scripts.TestCase.TC_1()'><b>TC_1</b><br>Test class: Scripts.TestCase<br>Test method: TC001-This test verifies LoginPage Title,username and Password fields present,login Button is enabled<br/>
+<a href="#Output-2076829355" onClick='toggleBox("Output-2076829355", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2076829355" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2076829355">
+Title is Displayed<br/>
+Password Test Box is Present<br/>
+Username Test Box is Present<br/>
+Login Button is enabled<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.TestCase@11a9e7c8</td></tr>
+<tr>
+<td title='Scripts.TestCase.TC_6()'><b>TC_6</b><br>Test class: Scripts.TestCase<br>Test method: click the AMOUNT header in the transaction table and check the values are sorted</td>
+<td></td>
+<td>0</td>
+<td>Scripts.TestCase@11a9e7c8</td></tr>
+<tr>
+<td title='Scripts.TestCase.TC_4()'><b>TC_4</b><br>Test class: Scripts.TestCase<br>Test method: TC004-This test verifies validation message displayed when user login with valid username and blank password<br/>
+<a href="#Output-393481646" onClick='toggleBox("Output-393481646", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-393481646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-393481646">
+Password must be present Message is Displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.TestCase@11a9e7c8</td></tr>
+<tr>
+<td title='Scripts.TestCase.TC_5()'><b>TC_5</b><br>Test class: Scripts.TestCase<br>Test method: TC005-This test verifies validation message displayed when user login with valid password and blank username<br/>
+<a href="#Output-1854577712" onClick='toggleBox("Output-1854577712", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1854577712" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1854577712">
+username must be present Message is Displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.TestCase@11a9e7c8</td></tr>
+<tr>
+<td title='Scripts.TestCase.TC_2()'><b>TC_2</b><br>Test class: Scripts.TestCase<br>Test method: TC002-This test verifies validation message displayed when user login with blank user name and password<br/>
+<a href="#Output-1704600661" onClick='toggleBox("Output-1704600661", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1704600661" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1704600661">
+Username and Password are required validation message is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Scripts.TestCase@11a9e7c8</td></tr>
+</table><p>
+</body>
+</html>
